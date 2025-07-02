@@ -14,13 +14,8 @@ nav {
     background-color: black;
     color: white;
     height: 3rem;
-}
-
-nav ul {
-    list-style: none;
     display: flex;
     justify-content: space-around;
-    height: 100%;
     align-items: center;
 }
 div{
