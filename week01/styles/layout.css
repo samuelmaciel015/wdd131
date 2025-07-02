@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header p {
+    height: 5rem;
+    background-color: gray;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+div{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+main {
+    height: 26rem;
+    background-color: gray;
+}
+
+aside {
+    height: 26rem;
+    background-color: white;
+}
+
+footer {
+    height: 12rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
