@@ -8,8 +8,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+h1, h2{
     font-family: var(--heading);
+    text-align: center;
 }
 p, a, span{
     font-family: var(--paragraph);
@@ -45,10 +46,8 @@ nav a:hover{
     font-size: 18px;
 }
 /*main*/
-h1{
-    text-align: center;
-}
 main{
+    max-width: 2000px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1rem;
@@ -69,7 +68,7 @@ section div{
     justify-content: center;
     flex-wrap: wrap;
 }
-section h1:nth-child(1){
+section h2:nth-child(1){
     background-color: var(--background-color1);
     padding: 1%;
     border-top-left-radius: 10px;
