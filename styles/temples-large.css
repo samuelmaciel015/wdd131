@@ -1,0 +1,72 @@
+@media screen and (min-width: 1000px){
+    :root {
+            --background-color: #1e588f;
+            --font-color: #fff;
+        }
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            font-family: "Open Sans", sans-serif;
+        }
+    
+        header {
+            background-color: var(--background-color);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 4rem;
+        }
+    
+        header h1 {
+            padding: 1.5%;
+            color: var(--font-color);
+        }
+    
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+        }
+    
+        nav a {
+            font-size: 16px;
+            color: var(--font-color);
+            text-decoration: none;
+        }
+    
+        nav a:hover {
+            font-size: 18px;
+        }
+
+        #menu, .navigation{
+            display: none;
+        }
+    
+        main {
+            max-width: 1200px;
+            padding: 1rem;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            place-items: center;
+        }
+    
+        main h1 {
+            grid-column: 1 / span 3;
+            margin-right: 4.3%;
+        }
+
+        figcaption{
+            text-align: center;
+        }
+
+        footer {
+            background-color: var(--background-color);
+            height: 3.7rem;
+            text-align: center;   }
+}
