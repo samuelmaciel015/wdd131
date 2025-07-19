@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="author" content="Samuel Amorim Maciel">
+    <!--css and js-->
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-small.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Brazil</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/onca-small.webp" media="(max-width: 600px)">
+            <img src="images/onca-large.webp" alt="Onça Pintada">
+        </picture>
+        <section>
+            <h2>Data</h2>
+            <p>Area: <span>587,041 sq km</span></p>
+            <p>Population:<span>27,691,018</span></p>
+            <p>Capital: <span>Antananarivo</span></p>
+            <p>Languages: <span>Malagasy, French</span></p>
+            <p>Currency: <span>Malagasy Ariary</span></p>
+            <p>Time Zone: <span>UTC+3</span></p>
+            <p>Calling Code: <span>+261</span></p>
+            <p>Internet TLD: <span>.mg</span></p>
+        </section>
+        <section>
+            <h2>Weather</h2>
+            <img src="images/weather.svg" alt="Wheater">
+            <p>Temperature: <span>10 °C</span></p>
+            <p>Conditions: <span>Partly Cloudy</span></p>
+            <p>Wind: <span>5 km/h</span></p>
+            <p>Wind Chill: <span id="wind-chill"></span></p>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> ⚽ Samuel Maciel ⚽ Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
