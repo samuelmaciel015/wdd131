@@ -58,17 +58,11 @@
             padding: 4% 7%;
         }
         section h2:nth-child(1){
-            margin-bottom: 10%;
+            margin-bottom: 6%;
         }
-        .weather-section p:nth-child(2){
-            margin-top: 7rem;
-        }
-        .weather-section h2::after {
-            content: url(/images/weather.svg);
-            position: absolute;
+        .weather-section img {
             width: 20%;
-            left: 40%;
-            top: 184%;
+            height: 20%;
         }
         /*footer*/
         footer{

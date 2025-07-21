@@ -87,6 +87,9 @@
         padding: 4% 7%;
         margin-bottom: 10%;
     }
+    .weather-section img{
+        visibility: hidden;
+    }
     .weather-section h2::after{
         content: url(/images/weather.svg);
         width: 20%;
