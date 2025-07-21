@@ -12,7 +12,9 @@
         }
     
         html {
-            font-family: Arial;
+            font-family: "Anton", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
         /*head*/
         header {
@@ -24,7 +26,7 @@
         
         header h1 {
             background-color: var(--background-color1);
-            font-size: 50px;
+            font-size: 45px;
             height: 4rem;
             padding: 1%;
         }
@@ -58,10 +60,15 @@
         section h2:nth-child(1){
             margin-bottom: 10%;
         }
-        section img {
+        .weather-section p:nth-child(2){
+            margin-top: 7rem;
+        }
+        .weather-section h2::after {
+            content: url(/images/weather.svg);
+            position: absolute;
             width: 20%;
-            height: 20%;
-            margin-bottom: 10%;
+            left: 40%;
+            top: 184%;
         }
         /*footer*/
         footer{
