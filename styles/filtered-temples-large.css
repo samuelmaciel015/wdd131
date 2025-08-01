@@ -1,0 +1,82 @@
+@media screen and (min-width: 700px){
+    :root {
+            --background-color: #1e588f;
+            --font-color: #fff;
+        }
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            font-family: "Open Sans", sans-serif;
+        }
+    
+        header {
+            background-color: var(--background-color);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 4rem;
+        }
+    
+        header h1 {
+            padding: 1.5%;
+            color: var(--font-color);
+        }
+    
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+        }
+    
+        nav a {
+            font-size: 16px;
+            color: var(--font-color);
+            text-decoration: none;
+        }
+    
+        nav a:hover {
+            font-size: 18px;
+        }
+
+        #menu, .navigation{
+            display: none;
+        }
+    
+        main {
+            max-width: 1200px;
+            padding: 1rem;
+            margin: 0 10%;
+            text-align: center;
+            min-height: 38.3rem;
+        }
+
+        main section{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main section div{
+            border: 1px solid #e6e4df;
+            padding: 1rem;
+            text-align: center;
+            background-color: #f2f1ed;
+
+            img{
+                box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.5);
+                margin: 1rem;
+            }
+        }
+
+        footer {
+            background-color: var(--background-color);
+            height: 3.7rem;
+            text-align: center;   }
+}

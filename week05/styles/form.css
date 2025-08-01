@@ -1,0 +1,97 @@
+@media screen and (min-width: 750px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    /*HEADER*/
+    header{
+        width: 100%;
+        height: 5rem;
+        background-color: #2596be;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    /*MAIN**/
+    main{
+        text-align: center;
+        padding: 2rem 25%;
+    }
+    form{
+        width: 100%;
+        height: 700px;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: left;
+        padding: 1rem;
+    }
+    form label{
+        display: block;
+        padding: .75rem;
+    }
+    form label div{
+        display: inline-block;
+        text-align: center;
+        width: 20%;
+        margin-left: -3px;
+        padding: 1%;
+    }
+    form label input[type="date"],
+    input[type="text"], 
+    select{
+        width: 100%;
+        height: 30px;
+        border-radius: 6px;
+        border: 1px solid black;
+        padding: 5px;
+    }
+    textarea{
+        width: 100%;
+        height: 60px;
+        border-radius: 6px;
+        border: 1px solid black;
+        padding: 5px;
+    }
+    input[type="submit"]{
+        width: 94%;            
+        height: 30px;
+        border-radius: 6px;
+        border: 1px solid black;
+        margin: 1rem 3%;
+    }
+    input[type="submit"]{
+        width: 94%;            
+        height: 30px;
+        border-radius: 6px;
+        border: 1px solid black;
+        margin: 1rem 3%;
+    }
+    input[type="submit"]:hover {
+        width: 96%;
+        height: 34px;
+        border-radius: 6px;
+        border: 1px solid black;
+        margin: 1rem 2%;
+    }
+    section{
+        text-align: justify;
+        height: 100%;
+        width: 100%;
+    }
+
+    /*FOOTER*/
+    footer{
+        background-color: #2596be;
+        height: 4rem;
+        width: 100%;
+        text-align: center;
+    }
+}

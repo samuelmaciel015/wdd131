@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Activity</title>
+    <meta name="description" content="This activity will teach how to lazy load some HTML tags">
+    <meta name="author" content="Samuel Amorim Maciel">
+    <!--external files-->
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+    <!--googles fonts api-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>Lazy Load Demonstration</header>
+    <main>
+        <h1>Pictures</h1>
+        <picture>
+            <img src="/images/temple.jpeg" alt="Temple" loading="lazy">
+        </picture>
+        <picture>
+            <img src="/images/temple.jpeg" alt="Temple" loading="lazy">
+        </picture>
+        <picture>
+            <img src="/images/temple.jpeg" alt="Temple" loading="lazy">
+        </picture>
+        <picture>
+            <img src="/images/temple.jpeg" alt="Temple" loading="lazy">
+        </picture>
+        <picture>
+            <img src="/images/temple.jpeg" alt="Temple" loading="lazy">
+        </picture>
+        <picture>
+            <img src="/images/temple.jpeg" alt="Temple" loading="lazy">
+        </picture>
+    </main>
+    <footer>
+        <p>©<span id="current-year"></span>Samuel Amorim Maciel</p>
+        <p id="last-modified"></p>
+    </footer>
+</body>
+</html>
