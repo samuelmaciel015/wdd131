@@ -158,3 +158,28 @@ function createTempleCard(filteredTemples) {
   document.getElementById("section").appendChild(div);
 })  
 }
+
+const homeLink1 = document.getElementById("home1");
+homeLink.addEventListener('click', () => {
+  createTempleCard(temples);
+});
+
+const largeLink1 = document.getElementById("large1");
+largeLink.addEventListener('click', () => {
+  createTempleCard(temples.filter(temple => temple.area > 90000));
+});
+
+const smallLink1 = document.getElementById("small1");
+smallLink.addEventListener('click', () => {
+  createTempleCard(temples.filter(temple => temple.area < 10000));
+});
+
+const newLink1 = document.getElementById("new1");
+newLink.addEventListener('click', () => {
+  createTempleCard(temples.filter(temple => parseInt(temple.dedicated.split(",")[0]) > 2000));
+});
+
+const oldLink1 = document.getElementById("old1");
+oldLink.addEventListener('click', () => {
+  createTempleCard(temples.filter(temple => parseInt(temple.dedicated.split(",")[0]) < 1900));
+});

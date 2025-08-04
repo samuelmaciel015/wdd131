@@ -68,11 +68,11 @@
             padding: 1rem;
             text-align: center;
             background-color: #f2f1ed;
-
-            img{
-                box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.5);
-                margin: 1rem;
-            }
+        }            
+        
+        img {
+            box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.5);
+            margin: 1rem;
         }
 
         footer {

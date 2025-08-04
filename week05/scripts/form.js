@@ -2,7 +2,7 @@
 const year = document.querySelector("#currentyear");
 const modified = document.querySelector("#lastModified");
 const today = new Date();
-
+;
 year.innerHTML = today.getFullYear();
 modified.innerHTML = 'Last Modified: ' + document.lastModified;
 
@@ -51,5 +51,5 @@ let number = 0;
 
 button.addEventListener('click', () => {
     number += 1;
-    localStorage.setItem('reviews', JSON.stringify(number));
+    localStorage.setItem('reviews', JSON.stringify(newNumber));
 })
