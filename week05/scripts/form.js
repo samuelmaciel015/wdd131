@@ -47,9 +47,13 @@ products.forEach(product => {
 
 const button = document.querySelector("#submit");
 
-let number = 0;
+const form = document.querySelector("#form");
 
-button.addEventListener('click', () => {
-    number += 1;
-    localStorage.setItem('reviews', JSON.stringify(newNumber));
+let count = JSON.parse(localStorage.getItem('reviews')) || 0;
+
+form.addEventListener('submit', () => {
+
+  count++;
+
+  localStorage.setItem('reviews', JSON.stringify(count));
 })
