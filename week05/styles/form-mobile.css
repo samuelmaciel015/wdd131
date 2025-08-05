@@ -102,6 +102,8 @@
         height: 4rem;
         width: 100%;
         text-align: center;
+    }
+    #review-footer {
         position: absolute;
         bottom: 0;
     }
