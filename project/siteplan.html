@@ -3,23 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name</title>
+    <title>Nexus</title>
     <meta name="description" content="This site is a cellphone store, it selling cellphones, charges, airpods and cellphone cases.">
     <meta name="author" content="Samuel Amorim Maciel">
+
+    <!--external files-->
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="stylesheet" href="styles/siteplan-mobile.css">
+
+    <!--fonts google api-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header></header>
+    <header>
+        <img src="images/logo.png" alt="Logo" loading="lazy">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Cart</a>
+            <button>Sing In</button>
+        </nav>
+    </header>
     <main>
-        <section>
-            <h2>What are the latest models available?</h2>
+
+        <!--HERO SECTION-->
+        <section class="hero">
+            <h1>Nexus N30 PLus</h1>
+            <h3>The latest model</h3>
+            <ul>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
         </section>
-        <section>
-            <h2>There is any discounts or deals?</h2>
+
+        <!--PROSUCTS SECTION-->
+        <section class="products">
+            <h2>Deals</h2>
+            <div class="grid-container">
+                <div class="container1">
+                    <img src="/images/model3.jpg" alt="cellphone" loading="lazy">
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="container2">
+                    <img src="/images/model4.jpg" alt="cellphone" loading="lazy">
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="container3">
+                    <img src="/images/model6.jpg" alt="cellphone" loading="lazy">
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
+            <button>Look for Deals</button>
         </section>
-        <section>
-            <h2>What warranty or return policy comes with the phone?</h2>
+
+        <!--POLICY SECTION-->
+        <section class="policy">
+            <h2>Warranty & Return Policy</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ratione tempora consequuntur nemo cupiditate eveniet repellat aliquam a sequi saepe similique laudantium sint quibusdam consectetur voluptatem, veniam voluptatum, at autem, accusamus fugit ipsum fugiat facere consequatur. Temporibus nisi mollitia facere in dolorum tempore quod, vitae quibusdam neque? Fuga, recusandae pariatur.</p>
+            
+            <div class="grid-container2">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+                <div class="vertical-line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odio distinctio doloremque fugit voluptas totam eos quibusdam vitae aperiam necessitatibus, facere sed molestiae consequuntur alias ab excepturi dolorum quasi doloribus.</p>
+            </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="grid-container3">
+            <div class="logo">
+                <img src="/images/logo.png" alt="Logo" loading="lazy">
+            </div>
+            
+            <div class="flex-container">
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Cart</a>
+            </div>
+            
+            <div class="flex-container2">
+                <img src="/images/instagram.png" alt="instagram" loading="lazy">
+                <img src="/images/facebook.png" alt="facebook" loading="lazy">
+                <img src="/images/x.png" alt="x" loading="lazy">
+            </div>
+        </div>
+
+        <p>Wireframes: <a href="https://wireframe.cc/yC4KDE" target="_blank">Desktop Version</a> <a href="https://wireframe.cc/hpFnCO" target="_blank">Mobile Version</a></p>
+        <p>&copy;<span id="current-year"></span> Samuel Amorim Maciel. All rights reserved</p>
+    </footer>
 </body>
 </html>
