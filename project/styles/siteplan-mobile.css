@@ -53,7 +53,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 40px 200px 1fr;
-        background-image: url("images/model2.jpg");
+        background-image: url(../images/model2.jpg);
         background-size: 100% 700px;
     }
 

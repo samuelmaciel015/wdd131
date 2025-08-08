@@ -54,7 +54,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 40px 95px 70px 1fr 1fr;
-        background-image: url(model1.jpg);
+        background-image: url(../images/model1.jpg);
         background-size: 100% 700px;
     }
 
