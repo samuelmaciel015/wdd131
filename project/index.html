@@ -10,6 +10,7 @@
     <!--external files-->
     <link rel="stylesheet" href="styles/nexus.css">
     <link rel="stylesheet" href="styles/nexus-mobile.css">
+    <script src="scripts/siteplan.js" defer></script>
 
     <!--fonts google api-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +24,7 @@
             <a href="#">Home</a>
             <a href="#">Products</a>
             <a href="#">Cart</a>
-            <button>Sing In</button>
+            <button onclick="signup()">Sign Up</button>
         </nav>
     </header>
     <main>
@@ -42,20 +43,7 @@
         <!--PROSUCTS SECTION-->
         <section class="products">
             <h2>Deals</h2>
-            <div class="grid-container">
-                <div class="container1">
-                    <img src="images/model3.jpg" alt="cellphone" loading="lazy">
-                    <p>Lorem ipsum</p>
-                </div>
-                <div class="container2">
-                    <img src="images/model4.jpg" alt="cellphone" loading="lazy">
-                    <p>Lorem ipsum</p>
-                </div>
-                <div class="container3">
-                    <img src="images/model6.jpg" alt="cellphone" loading="lazy">
-                    <p>Lorem ipsum</p>
-                </div>
-            </div>
+            <div class="grid-container"></div>
             <button>Look for Deals</button>
         </section>
 
@@ -93,8 +81,6 @@
                 <img src="images/x.png" alt="x" loading="lazy">
             </div>
         </div>
-
-        <p>Wireframes: <a href="https://wireframe.cc/yC4KDE" target="_blank">Desktop Version</a> <a href="https://wireframe.cc/hpFnCO" target="_blank">Mobile Version</a></p>
         <p>&copy;<span id="current-year"></span> Samuel Amorim Maciel. All rights reserved</p>
     </footer>
 </body>

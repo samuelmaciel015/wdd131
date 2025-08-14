@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus - Sign Up</title>
+    <meta name="description" content="This site signs you up to the cell phone store to make purchases">
+    <meta name="author" content="Samuel Amorim Maciel">
+
+    <!--external files-->
+    <link rel="stylesheet" href="styles/signup.css">
+    <link rel="stylesheet" href="styles/signup-mobile.css">
+    <script src="scripts/signup.js" defer></script>
+
+    <!--fonts google api-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" loading="lazy">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html">Products</a>
+            <a href="index.html">Cart</a>
+            <button onclick="signup()">Sign Up</button>
+        </nav>
+    </header>
+    <main>
+        <form action="registration.html" method="get" id="form">
+            <h2>Sign Up</h2>
+            <label for="name">Username*
+                <input type="text" required>
+            </label>
+
+            <label for="name">Password*
+                <input type="password" required autocomplete="">
+            </label>
+
+            <label for="name">E-mail*
+                <input type="email" required>
+            </label>
+
+            <label for="name">Phone Number
+                <input type="tel" placeholder="XXX-XXX-XXX">
+            </label>
+
+            <input type="submit" value="Sign Up" id="submit">
+        </form>
+    </main>
+    <footer>
+        <div class="grid-container3">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo" loading="lazy">
+            </div>
+
+            <div class="flex-container">
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Cart</a>
+            </div>
+
+            <div class="flex-container2">
+                <img src="images/instagram.png" alt="instagram" loading="lazy">
+                <img src="images/facebook.png" alt="facebook" loading="lazy">
+                <img src="images/x.png" alt="x" loading="lazy">
+            </div>
+        </div>
+        <p>&copy;<span id="current-year"></span> Samuel Amorim Maciel. All rights reserved</p>
+    </footer>
+</body>
+
+</html>
